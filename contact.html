@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz</title>
+    <link rel="icon" href="indian2.png" type="image/png">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <nav>
+        <label class="logo"> Quiz </label>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a class="active" onclick="myFunction()"> Toggle dark mode</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Cataragies</button>
+                <div class="dropdown-content">
+                  <a href="book.html">Book</a>
+                  <a href="science.html">Science</a>
+                  <a href="sports.html">Sports</a>
+                  <a href="maths.html">Maths</a>
+                  <a href="music.html">Music</a>
+                </div>
+              </div>
+        </ul>
+    </nav>
+    <center>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h1>Want to talk to us. We love to hear from you ! </h1>
+                <div class="details">
+                    <h4>CONTACT INFORMATION</h4>
+                    <div class="address">
+                        <img src="https://dcstatic.com/images/icons/common-medium/common-medium-location-7dc940f5dd.svg"
+                            alt="Location">
+                        LOVELY PROFESSIONAL UNIVERSITY <h6>
+                            Jalandhar-Delhi, G.T. Road, Phagwara, Punjab (INDIA) -144411
+                        </h6>
+                    </div>
+                    <div class="email">
+                        <img src="https://dcstatic.com/images/icons/common-medium/common-medium-mail-support-c70af7b22c.svg"
+                            alt="Mail support">
+                        Support email
+                       
+                        <h6><a href="mailto:virenvariya7@gmail.com">virenvariya7@gmail.com</a></h6>
+                    </div>
+                    <div class="social">
+                        <a href="https://facebook.com" target="_blank"> <img src="img/fb.png" alt="instagram"></a>
+                        <a href="https://www.instagram.com/variyaviren/" target="_blank"> <img src="img/ig.png" alt="insta"></a>
+                        <a href="https://twitter.com/variya_viren" target="_blank"><img src="img/tw.png" alt="twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </center>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <!-- <link rel="icon" href="indian2.png" type="image/png"> -->
+    <!-- <link rel="stylesheet" href="about.css"> -->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/about.css">
+    
+</head>
+<body>
+    <body>
+        <nav>
+            <label class="logo"> Quiz </label>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a class="active" onclick="myFunction()"> Toggle dark mode</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                      <a href="book.html">Book</a>
+                      <a href="science.html">Science</a>
+                      <a href="sports.html">Sports</a>
+                      <a href="maths.html">Maths</a>
+                      <a href="music.html">Music</a>
+                    </div>
+                  </div>
+            </ul>
+        </nav>
+        <center>
+        <div class="container">
+            
+            <div class="card">
+                <!-- <div class="img"></div> -->
+                <img class="img" src="img/viren.png">
+                <div class="content">
+                    
+                    <h2>About Us</h2>
+                    <h3>It is a website created by :'Viren Variya Jitendrakumar' of Lovely Professional university under a given project. It is a dummy website for sports club which can be used as a website for business to display the different features of the club and can also be used as website for buying the subscription.</h3>
+                </div>
+            </div>
+        </div>
+        </center>
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+    </body>
+</body>
+</html>
